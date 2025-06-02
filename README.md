@@ -1,2 +1,7 @@
 # Customer-Segmentation-Analysis
 Data Science project
+Summary
+
+**Customer Segmentation Project – Summary**
+
+The goal of this project was to group customers into different segments based on their demographics, spending habits, and online activity. This helps businesses better understand customer behavior, create focused marketing strategies, and improve customer satisfaction and loyalty. The dataset included details like income, education, age group, family size, total money spent, number of purchases, and how recently a customer made a purchase. After cleaning the data and creating new features such as total spending and family status, categorical data was encoded, and numeric values were scaled. Outliers were removed to ensure better model performance. Several clustering techniques were applied, including KMeans, Agglomerative Clustering, DBSCAN, Mean Shift, and Gaussian Mixture Models. Among these, Agglomerative Clustering gave the best results, clearly identifying two customer groups—one with high income and high spending, and another that was more budget-conscious and educated. To make this usable in real-world applications, a Gradient Boosting Classifier was trained to predict customer segments, and the final model was saved for deployment. The insights from clustering can help businesses design different strategies for each segment—such as offering loyalty rewards to high spenders and discounts or referrals to value-seeking customers.
